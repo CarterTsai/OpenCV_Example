@@ -4,8 +4,12 @@ Refs : http://docs.opencv.org/doc/tutorials/introduction/load_save_image/load_sa
 
 ### build
 ```
-cmake .
+$> mkdir build
+$> cd build
+$> cmake -G "Unix Makefiles" . ../
 ```
+
+
 
 ### Usage
 ```
