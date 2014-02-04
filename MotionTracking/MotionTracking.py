@@ -13,7 +13,7 @@ def searchMovement(thresholdImage, frame):
     largestContourVec = []
     objectBoundingRectangle = []
     x , y = 0 , 0
-
+    bx, by = 0 , 0
     gray =  cv2.cvtColor(thresholdImage, cv2.COLOR_BGR2GRAY)
 
     contours, hierarchy = cv2.findContours(gray, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -32,7 +32,7 @@ def searchMovement(thresholdImage, frame):
 
     x = theObject[0]
     y = theObject[1]
-    cv2.circle(frame, (x,y), 20 ,(0,255,0), 2)
+    cv2.circle(frame, (bx,by), 20 ,(0,255,0), 2)
     return frame
 
 
