@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # https://dl.dropboxusercontent.com/u/28096936/tuts/motionTrackingTut/finalCode/motionTracking.cpp
+# https://www.youtube.com/watch?v=X6rPdRZzgjg&list=UUJ2b0kP6Hwc_R8ebv8P2f9w&feature=c4-overview
 import cv2
 import sys
 
